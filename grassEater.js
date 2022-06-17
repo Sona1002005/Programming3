@@ -2,7 +2,7 @@ class GrassEater {
     constructor(x,y){
         this.x = x;
         this.y = y;
-        this.energy = 20
+        this.energy = 10
     }
 
     getNewCoordinates(){
@@ -36,7 +36,7 @@ class GrassEater {
         let found = this.chooseCell(0);
         let newCell = random(found); 
         if (newCell  /*&& this.energy >= 12*/){
-            console.log(55);
+            
             
             let newX = newCell[0];
             let newY = newCell[1];

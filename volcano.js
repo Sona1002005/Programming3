@@ -58,7 +58,7 @@ class Volcano {
                     }
                 }
             }
-            console.log("here");
+
             matrix[y][x]=4;
         }
         }   

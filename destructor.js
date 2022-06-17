@@ -26,7 +26,6 @@ class Destructor{
                     found.push(this.directions[i]);
             }
         }
-        console.log(found);
         
         
         return found;
