@@ -86,7 +86,7 @@ var matrix=generator(row, column, 10, 20, 50, 10, 10, 10, 10);
 console.log(matrix, "++++++++++++");
 
 var frm;
-var side=13;
+var side=20;
 // var matrix=[];  
 var grassArr=[];
 var grassEaterArr=[];
